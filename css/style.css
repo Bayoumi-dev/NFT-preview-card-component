@@ -1,0 +1,47 @@
+/* Google Font -  */
+
+/* Variables */
+:root {
+  /* Colors Primary */
+  --colors-soft-blue: hsl(215, 51%, 70%);
+  --colors-cyan: hsl(178, 100%, 50%);
+  /* Colors Neutral */
+  --colors-main-bg: hsl(217, 54%, 11%);
+  --colors-card-bg: hsl(216, 50%, 16%);
+  --colors-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  /* Fonts */
+  --fonts-main: ;
+}
+/* Global Rules  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--fonts-main);
+  cursor: default;
+}
+/* Reset The Anchor element */
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+/* Centering component */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 6px;
+  background-color: var(--colors-main-bg);
+}

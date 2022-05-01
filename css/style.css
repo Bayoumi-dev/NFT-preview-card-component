@@ -27,6 +27,7 @@ html {
 }
 body {
   font-family: var(--fonts-main);
+  line-height: 1.45;
   cursor: default;
 }
 /* Reset The Anchor element */

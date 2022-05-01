@@ -177,6 +177,23 @@ main {
 .nft-card__body .creator figcaption a:hover {
   color: var(--colors-cyan);
 }
+/* Media */
+@media (min-width: 576px) {
+  .nft-card {
+    max-width: 350px;
+    min-height: 596px;
+  }
+  .nft-card__img__wrapper {
+    height: 302px;
+  }
+  .nft-card__body ul.details {
+    padding: 24px 0;
+  }
+  .nft-card__body li,
+  .nft-card__body .creator figcaption {
+    font-size: 0.889rem;
+  }
+}
 /* Footer */
 footer {
   width: 100%;

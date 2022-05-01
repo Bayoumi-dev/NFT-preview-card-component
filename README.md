@@ -13,7 +13,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Screenshot
 
-![NFT preview card component](https://github.com/Bayoumi-dev/NFT-preview-card-component/blob/master/design/Screenshot.png)
+![NFT preview card component](https://github.com/Bayoumi-dev/NFT-preview-card-  component/blob/master/design/Screenshot.png)
 
 ## ⚙ Built with
 

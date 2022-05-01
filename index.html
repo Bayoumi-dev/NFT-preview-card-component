@@ -2,9 +2,13 @@
 <html lang="en">
 
 <head>
+    <!-- specifies the character encoding for the HTML document -->
     <meta charset="UTF-8">
-    <!-- displays site properly based on user's device -->
+    <!-- Displays site properly based on user's device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Provides a brief summary of a web page -->
+    <meta name="description" content="This is a solution to the NFT preview card component challenge on Frontend Mentor. 
+        The purpose of this challenge is to improve my coding skills by building realistic projects.">
     <!-- Favicon -->
     <link rel="icon" type="image/ico" sizes="32x32" href="images/favicon.ico">
     <!-- CSS File  -->
@@ -14,7 +18,30 @@
 
 <body>
     <main>
-        
+
+        <section>
+            <!-- NFT preview card component -->
+            <div class="nft-card">
+                <div class="nft-card__img__wrapper">
+                    <img src="images/image-equilibrium.jpg" alt="NFT's picture">
+                </div>
+                <div class="nft-card__body">
+                    <h1><a href="#">Equilibrium #3429</a></h1>
+                    <p>Our Equilibrium collection promotes balance and calm.</p>
+                    <ul class="details">
+                        <li class="pricing">0.041 ETH</li>
+                        <li class="timing">3 days left</li>
+                    </ul>
+                    <hr>
+                    <!-- Creator -->
+                    <figure class="creator">
+                        <img src="images/image-avatar.png" alt="Jules Wyvern">
+                        <figcaption>Creation of <a href="#">Jules Wyvern</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
 

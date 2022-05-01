@@ -187,6 +187,9 @@ main {
   .nft-card__img__wrapper {
     height: 302px;
   }
+  .nft-card__body h1 {
+    margin: 24px 0 16px;
+  }
   .nft-card__body ul.details {
     padding: 24px 0;
   }

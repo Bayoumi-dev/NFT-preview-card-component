@@ -19,6 +19,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - HTML
 - CSS
+- Mobile-first workflow
 
 ## Author
 - Website - [bayoumi.dev](https://bayoumi.dev)
